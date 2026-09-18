@@ -1,0 +1,17 @@
+[0.113s] Invoking command in '/workspace/ros2_ws/build/google_benchmark_vendor': /usr/bin/cmake /workspace/ros2_ws/src/ament/google_benchmark_vendor -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-I/usr/include/aarch64-linux-gnu -DCMAKE_C_FLAGS=-I/usr/include/aarch64-linux-gnu -DCMAKE_INSTALL_PREFIX=/opt/ros/humble
+[0.132s] -- Configuring done
+[0.150s] -- Generating done
+[0.151s] [33mCMake Warning:
+[0.151s]   Manually-specified variables were not used by the project:
+[0.152s] 
+[0.153s]     CMAKE_C_FLAGS
+[0.153s] 
+[0.154s] [0m
+[0.154s] -- Build files have been written to: /workspace/ros2_ws/build/google_benchmark_vendor
+[0.154s] Invoked command in '/workspace/ros2_ws/build/google_benchmark_vendor' returned '0': /usr/bin/cmake /workspace/ros2_ws/src/ament/google_benchmark_vendor -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-I/usr/include/aarch64-linux-gnu -DCMAKE_C_FLAGS=-I/usr/include/aarch64-linux-gnu -DCMAKE_INSTALL_PREFIX=/opt/ros/humble
+[0.160s] Invoking command in '/workspace/ros2_ws/build/google_benchmark_vendor': /usr/bin/cmake --build /workspace/ros2_ws/build/google_benchmark_vendor -- -j5 -l5
+[0.182s] Invoked command in '/workspace/ros2_ws/build/google_benchmark_vendor' returned '0': /usr/bin/cmake --build /workspace/ros2_ws/build/google_benchmark_vendor -- -j5 -l5
+[0.187s] Invoking command in '/workspace/ros2_ws/build/google_benchmark_vendor': /usr/bin/cmake --install /workspace/ros2_ws/build/google_benchmark_vendor
+[0.190s] -- Install configuration: "Release"
+[0.191s] -- Up-to-date: /opt/ros/humble/share/google_benchmark_vendor/package.xml
+[0.192s] Invoked command in '/workspace/ros2_ws/build/google_benchmark_vendor' returned '0': /usr/bin/cmake --install /workspace/ros2_ws/build/google_benchmark_vendor

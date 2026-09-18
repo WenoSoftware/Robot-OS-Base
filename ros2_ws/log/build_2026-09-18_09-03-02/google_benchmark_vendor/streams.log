@@ -1,0 +1,14 @@
+[0.558s] Invoking command in '/workspace/ros2_ws/build/google_benchmark_vendor': /usr/bin/cmake /workspace/ros2_ws/src/ament/google_benchmark_vendor -DCMAKE_SYSTEM_NAME=Linux -DCMAKE_SYSTEM_PROCESSOR=aarch64 -DCMAKE_SYSROOT=/workspace/buildroot/output/staging -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install
+[0.777s] [31mCMake Error at /usr/share/cmake-3.22/Modules/CMakeDetermineCXXCompiler.cmake:48 (message):
+[0.779s]   Could not find compiler set in environment variable CXX:
+[0.779s] 
+[0.779s]   aarch64-buildroot-linux-gnu-g++.
+[0.780s] 
+[0.781s] Call Stack (most recent call first):
+[0.782s]   CMakeLists.txt:2 (project)
+[0.783s] 
+[0.783s] [0m
+[0.784s] [0mCMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage[0m
+[0.785s] -- Configuring incomplete, errors occurred!
+[0.785s] See also "/workspace/ros2_ws/build/google_benchmark_vendor/CMakeFiles/CMakeOutput.log".
+[0.798s] Invoked command in '/workspace/ros2_ws/build/google_benchmark_vendor' returned '1': /usr/bin/cmake /workspace/ros2_ws/src/ament/google_benchmark_vendor -DCMAKE_SYSTEM_NAME=Linux -DCMAKE_SYSTEM_PROCESSOR=aarch64 -DCMAKE_SYSROOT=/workspace/buildroot/output/staging -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install

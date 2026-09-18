@@ -1,0 +1,54 @@
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 failed with the following output:
+Change Dir: /workspace/ros2_ws/build/google_benchmark_vendor/benchmark-1.5.3-prefix/src/benchmark-1.5.3-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7e98e/fast && gmake[3]: Entering directory '/workspace/ros2_ws/build/google_benchmark_vendor/benchmark-1.5.3-prefix/src/benchmark-1.5.3-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_7e98e.dir/build.make CMakeFiles/cmTC_7e98e.dir/build
+gmake[4]: Entering directory '/workspace/ros2_ws/build/google_benchmark_vendor/benchmark-1.5.3-prefix/src/benchmark-1.5.3-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7e98e.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -std=c++11  -Wall  -Wextra  -Wshadow  -Wshorten-64-to-32   -Wshorten-64-to-32 -o CMakeFiles/cmTC_7e98e.dir/src.cxx.o -c /workspace/ros2_ws/build/google_benchmark_vendor/benchmark-1.5.3-prefix/src/benchmark-1.5.3-build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wshorten-64-to-32'
+c++: error: unrecognized command-line option '-Wshorten-64-to-32'
+gmake[4]: *** [CMakeFiles/cmTC_7e98e.dir/build.make:78: CMakeFiles/cmTC_7e98e.dir/src.cxx.o] Error 1
+gmake[4]: Leaving directory '/workspace/ros2_ws/build/google_benchmark_vendor/benchmark-1.5.3-prefix/src/benchmark-1.5.3-build/CMakeFiles/CMakeTmp'
+gmake[3]: *** [Makefile:127: cmTC_7e98e/fast] Error 2
+gmake[3]: Leaving directory '/workspace/ros2_ws/build/google_benchmark_vendor/benchmark-1.5.3-prefix/src/benchmark-1.5.3-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WD654 failed with the following output:
+Change Dir: /workspace/ros2_ws/build/google_benchmark_vendor/benchmark-1.5.3-prefix/src/benchmark-1.5.3-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f32cd/fast && gmake[3]: Entering directory '/workspace/ros2_ws/build/google_benchmark_vendor/benchmark-1.5.3-prefix/src/benchmark-1.5.3-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_f32cd.dir/build.make CMakeFiles/cmTC_f32cd.dir/build
+gmake[4]: Entering directory '/workspace/ros2_ws/build/google_benchmark_vendor/benchmark-1.5.3-prefix/src/benchmark-1.5.3-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f32cd.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WD654  -std=c++11  -Wall  -Wextra  -Wshadow  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -wd654   -wd654 -o CMakeFiles/cmTC_f32cd.dir/src.cxx.o -c /workspace/ros2_ws/build/google_benchmark_vendor/benchmark-1.5.3-prefix/src/benchmark-1.5.3-build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-wd654'
+c++: error: unrecognized command-line option '-wd654'
+gmake[4]: *** [CMakeFiles/cmTC_f32cd.dir/build.make:78: CMakeFiles/cmTC_f32cd.dir/src.cxx.o] Error 1
+gmake[4]: Leaving directory '/workspace/ros2_ws/build/google_benchmark_vendor/benchmark-1.5.3-prefix/src/benchmark-1.5.3-build/CMakeFiles/CMakeTmp'
+gmake[3]: *** [Makefile:127: cmTC_f32cd/fast] Error 2
+gmake[3]: Leaving directory '/workspace/ros2_ws/build/google_benchmark_vendor/benchmark-1.5.3-prefix/src/benchmark-1.5.3-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY failed with the following output:
+Change Dir: /workspace/ros2_ws/build/google_benchmark_vendor/benchmark-1.5.3-prefix/src/benchmark-1.5.3-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a68b8/fast && gmake[3]: Entering directory '/workspace/ros2_ws/build/google_benchmark_vendor/benchmark-1.5.3-prefix/src/benchmark-1.5.3-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_a68b8.dir/build.make CMakeFiles/cmTC_a68b8.dir/build
+gmake[4]: Entering directory '/workspace/ros2_ws/build/google_benchmark_vendor/benchmark-1.5.3-prefix/src/benchmark-1.5.3-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a68b8.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -std=c++11  -Wall  -Wextra  -Wshadow  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety   -Wthread-safety -o CMakeFiles/cmTC_a68b8.dir/src.cxx.o -c /workspace/ros2_ws/build/google_benchmark_vendor/benchmark-1.5.3-prefix/src/benchmark-1.5.3-build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wthread-safety'
+c++: error: unrecognized command-line option '-Wthread-safety'
+gmake[4]: *** [CMakeFiles/cmTC_a68b8.dir/build.make:78: CMakeFiles/cmTC_a68b8.dir/src.cxx.o] Error 1
+gmake[4]: Leaving directory '/workspace/ros2_ws/build/google_benchmark_vendor/benchmark-1.5.3-prefix/src/benchmark-1.5.3-build/CMakeFiles/CMakeTmp'
+gmake[3]: *** [Makefile:127: cmTC_a68b8/fast] Error 2
+gmake[3]: Leaving directory '/workspace/ros2_ws/build/google_benchmark_vendor/benchmark-1.5.3-prefix/src/benchmark-1.5.3-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }

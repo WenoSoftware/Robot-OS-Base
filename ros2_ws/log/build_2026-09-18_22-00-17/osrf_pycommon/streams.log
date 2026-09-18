@@ -1,0 +1,87 @@
+[0.391s] Invoking command in '/workspace/ros2_ws/src/osrf/osrf_pycommon': PYTHONPATH=/workspace/ros2_ws/build/osrf_pycommon/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/opt/ros/humble/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/osrf_pycommon build --build-base /workspace/ros2_ws/build/osrf_pycommon/build install --record /workspace/ros2_ws/build/osrf_pycommon/install.log --single-version-externally-managed install_data
+[0.480s] running egg_info
+[0.481s] creating ../../../build/osrf_pycommon/osrf_pycommon.egg-info
+[0.482s] writing ../../../build/osrf_pycommon/osrf_pycommon.egg-info/PKG-INFO
+[0.485s] writing dependency_links to ../../../build/osrf_pycommon/osrf_pycommon.egg-info/dependency_links.txt
+[0.488s] writing requirements to ../../../build/osrf_pycommon/osrf_pycommon.egg-info/requires.txt
+[0.492s] writing top-level names to ../../../build/osrf_pycommon/osrf_pycommon.egg-info/top_level.txt
+[0.493s] writing manifest file '../../../build/osrf_pycommon/osrf_pycommon.egg-info/SOURCES.txt'
+[0.497s] reading manifest file '../../../build/osrf_pycommon/osrf_pycommon.egg-info/SOURCES.txt'
+[0.498s] reading manifest template 'MANIFEST.in'
+[0.504s] adding license file 'LICENSE'
+[0.506s] writing manifest file '../../../build/osrf_pycommon/osrf_pycommon.egg-info/SOURCES.txt'
+[0.508s] running build
+[0.508s] running build_py
+[0.511s] creating /workspace/ros2_ws/build/osrf_pycommon/build
+[0.511s] creating /workspace/ros2_ws/build/osrf_pycommon/build/lib
+[0.512s] creating /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon
+[0.512s] copying osrf_pycommon/terminal_utils.py -> /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon
+[0.514s] copying osrf_pycommon/__init__.py -> /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon
+[0.515s] creating /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color
+[0.515s] copying osrf_pycommon/terminal_color/__init__.py -> /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color
+[0.516s] copying osrf_pycommon/terminal_color/ansi_re.py -> /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color
+[0.517s] copying osrf_pycommon/terminal_color/impl.py -> /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color
+[0.517s] copying osrf_pycommon/terminal_color/windows.py -> /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color
+[0.518s] creating /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils
+[0.518s] copying osrf_pycommon/process_utils/execute_process_nopty.py -> /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils
+[0.519s] copying osrf_pycommon/process_utils/async_execute_process.py -> /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils
+[0.520s] copying osrf_pycommon/process_utils/execute_process_pty.py -> /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils
+[0.523s] copying osrf_pycommon/process_utils/__init__.py -> /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils
+[0.525s] copying osrf_pycommon/process_utils/impl.py -> /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils
+[0.528s] copying osrf_pycommon/process_utils/get_loop_impl.py -> /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils
+[0.530s] creating /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/cli_utils
+[0.531s] copying osrf_pycommon/cli_utils/verb_pattern.py -> /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/cli_utils
+[0.533s] copying osrf_pycommon/cli_utils/__init__.py -> /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/cli_utils
+[0.537s] copying osrf_pycommon/cli_utils/common.py -> /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/cli_utils
+[0.539s] creating /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/async_execute_process_asyncio
+[0.540s] copying osrf_pycommon/process_utils/async_execute_process_asyncio/__init__.py -> /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/async_execute_process_asyncio
+[0.544s] copying osrf_pycommon/process_utils/async_execute_process_asyncio/impl.py -> /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/async_execute_process_asyncio
+[0.548s] running install
+[0.549s] running install_lib
+[0.550s] creating /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon
+[0.551s] creating /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/terminal_color
+[0.552s] copying /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color/__init__.py -> /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/terminal_color
+[0.553s] copying /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color/ansi_re.py -> /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/terminal_color
+[0.554s] copying /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color/impl.py -> /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/terminal_color
+[0.555s] copying /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color/windows.py -> /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/terminal_color
+[0.557s] copying /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_utils.py -> /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon
+[0.558s] creating /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/process_utils
+[0.559s] copying /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/execute_process_nopty.py -> /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/process_utils
+[0.560s] copying /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/async_execute_process.py -> /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/process_utils
+[0.561s] copying /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/execute_process_pty.py -> /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/process_utils
+[0.563s] copying /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/__init__.py -> /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/process_utils
+[0.575s] creating /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/process_utils/async_execute_process_asyncio
+[0.577s] copying /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/async_execute_process_asyncio/__init__.py -> /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/process_utils/async_execute_process_asyncio
+[0.577s] copying /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/async_execute_process_asyncio/impl.py -> /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/process_utils/async_execute_process_asyncio
+[0.578s] copying /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/impl.py -> /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/process_utils
+[0.578s] copying /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/get_loop_impl.py -> /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/process_utils
+[0.579s] copying /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/__init__.py -> /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon
+[0.579s] creating /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/cli_utils
+[0.581s] copying /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/cli_utils/verb_pattern.py -> /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/cli_utils
+[0.582s] copying /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/cli_utils/__init__.py -> /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/cli_utils
+[0.584s] copying /workspace/ros2_ws/build/osrf_pycommon/build/lib/osrf_pycommon/cli_utils/common.py -> /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/cli_utils
+[0.584s] byte-compiling /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/terminal_color/__init__.py to __init__.cpython-310.pyc
+[0.587s] byte-compiling /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/terminal_color/ansi_re.py to ansi_re.cpython-310.pyc
+[0.588s] byte-compiling /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/terminal_color/impl.py to impl.cpython-310.pyc
+[0.590s] byte-compiling /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/terminal_color/windows.py to windows.cpython-310.pyc
+[0.591s] byte-compiling /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/terminal_utils.py to terminal_utils.cpython-310.pyc
+[0.595s] byte-compiling /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/process_utils/execute_process_nopty.py to execute_process_nopty.cpython-310.pyc
+[0.596s] byte-compiling /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/process_utils/async_execute_process.py to async_execute_process.cpython-310.pyc
+[0.596s] byte-compiling /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/process_utils/execute_process_pty.py to execute_process_pty.cpython-310.pyc
+[0.597s] byte-compiling /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/process_utils/__init__.py to __init__.cpython-310.pyc
+[0.598s] byte-compiling /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/process_utils/async_execute_process_asyncio/__init__.py to __init__.cpython-310.pyc
+[0.598s] byte-compiling /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/process_utils/async_execute_process_asyncio/impl.py to impl.cpython-310.pyc
+[0.600s] byte-compiling /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/process_utils/impl.py to impl.cpython-310.pyc
+[0.600s] byte-compiling /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/process_utils/get_loop_impl.py to get_loop_impl.cpython-310.pyc
+[0.601s] byte-compiling /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/__init__.py to __init__.cpython-310.pyc
+[0.601s] byte-compiling /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/cli_utils/verb_pattern.py to verb_pattern.cpython-310.pyc
+[0.601s] byte-compiling /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/cli_utils/__init__.py to __init__.cpython-310.pyc
+[0.602s] byte-compiling /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/cli_utils/common.py to common.cpython-310.pyc
+[0.606s] running install_data
+[0.606s] copying package.xml -> /opt/ros/humble/share/osrf_pycommon
+[0.607s] copying resource/osrf_pycommon -> /opt/ros/humble/share/ament_index/resource_index/packages
+[0.607s] running install_egg_info
+[0.608s] Copying ../../../build/osrf_pycommon/osrf_pycommon.egg-info to /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon-2.1.7-py3.10.egg-info
+[0.608s] running install_scripts
+[0.611s] writing list of installed files to '/workspace/ros2_ws/build/osrf_pycommon/install.log'
+[0.691s] Invoked command in '/workspace/ros2_ws/src/osrf/osrf_pycommon' returned '0': PYTHONPATH=/workspace/ros2_ws/build/osrf_pycommon/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/opt/ros/humble/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/osrf_pycommon build --build-base /workspace/ros2_ws/build/osrf_pycommon/build install --record /workspace/ros2_ws/build/osrf_pycommon/install.log --single-version-externally-managed install_data

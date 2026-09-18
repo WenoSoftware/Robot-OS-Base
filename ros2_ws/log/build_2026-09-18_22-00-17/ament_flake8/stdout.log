@@ -1,0 +1,39 @@
+running egg_info
+creating ../../../../build/ament_flake8/ament_flake8.egg-info
+writing ../../../../build/ament_flake8/ament_flake8.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/ament_flake8/ament_flake8.egg-info/dependency_links.txt
+writing entry points to ../../../../build/ament_flake8/ament_flake8.egg-info/entry_points.txt
+writing requirements to ../../../../build/ament_flake8/ament_flake8.egg-info/requires.txt
+writing top-level names to ../../../../build/ament_flake8/ament_flake8.egg-info/top_level.txt
+writing manifest file '../../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspace/ros2_ws/build/ament_flake8/build
+creating /workspace/ros2_ws/build/ament_flake8/build/lib
+creating /workspace/ros2_ws/build/ament_flake8/build/lib/ament_flake8
+copying ament_flake8/__init__.py -> /workspace/ros2_ws/build/ament_flake8/build/lib/ament_flake8
+copying ament_flake8/pytest_marker.py -> /workspace/ros2_ws/build/ament_flake8/build/lib/ament_flake8
+copying ament_flake8/main.py -> /workspace/ros2_ws/build/ament_flake8/build/lib/ament_flake8
+creating /workspace/ros2_ws/build/ament_flake8/build/lib/ament_flake8/configuration
+copying ament_flake8/configuration/ament_flake8.ini -> /workspace/ros2_ws/build/ament_flake8/build/lib/ament_flake8/configuration
+running install
+running install_lib
+creating /opt/ros/humble/lib/python3.10/site-packages/ament_flake8
+creating /opt/ros/humble/lib/python3.10/site-packages/ament_flake8/configuration
+copying /workspace/ros2_ws/build/ament_flake8/build/lib/ament_flake8/configuration/ament_flake8.ini -> /opt/ros/humble/lib/python3.10/site-packages/ament_flake8/configuration
+copying /workspace/ros2_ws/build/ament_flake8/build/lib/ament_flake8/__init__.py -> /opt/ros/humble/lib/python3.10/site-packages/ament_flake8
+copying /workspace/ros2_ws/build/ament_flake8/build/lib/ament_flake8/pytest_marker.py -> /opt/ros/humble/lib/python3.10/site-packages/ament_flake8
+copying /workspace/ros2_ws/build/ament_flake8/build/lib/ament_flake8/main.py -> /opt/ros/humble/lib/python3.10/site-packages/ament_flake8
+byte-compiling /opt/ros/humble/lib/python3.10/site-packages/ament_flake8/__init__.py to __init__.cpython-310.pyc
+byte-compiling /opt/ros/humble/lib/python3.10/site-packages/ament_flake8/pytest_marker.py to pytest_marker.cpython-310.pyc
+byte-compiling /opt/ros/humble/lib/python3.10/site-packages/ament_flake8/main.py to main.cpython-310.pyc
+running install_data
+copying package.xml -> /opt/ros/humble/share/ament_flake8
+copying resource/ament_flake8 -> /opt/ros/humble/share/ament_index/resource_index/packages
+running install_egg_info
+Copying ../../../../build/ament_flake8/ament_flake8.egg-info to /opt/ros/humble/lib/python3.10/site-packages/ament_flake8-0.12.15-py3.10.egg-info
+running install_scripts
+Installing ament_flake8 script to /opt/ros/humble/bin
+writing list of installed files to '/workspace/ros2_ws/build/ament_flake8/install.log'

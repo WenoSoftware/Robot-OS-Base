@@ -1,0 +1,72 @@
+[0.043s] Invoking command in '/workspace/ros2_ws/build/osrf_testing_tools_cpp': /usr/bin/cmake /workspace/ros2_ws/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/opt/ros/humble
+[0.111s] -- The CXX compiler identification is GNU 11.4.0
+[0.131s] -- Detecting CXX compiler ABI info
+[0.252s] -- Detecting CXX compiler ABI info - done
+[0.268s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.269s] -- Detecting CXX compile features
+[0.270s] -- Detecting CXX compile features - done
+[0.318s] -- Could NOT find libdw (missing: LIBDW_LIBRARY LIBDW_INCLUDE_DIR) 
+[0.386s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.402s] -- Could NOT find libdwarf (missing: LIBDWARF_LIBRARY LIBDWARF_INCLUDE_DIR LIBELF_LIBRARY LIBELF_INCLUDE_DIR) 
+[0.403s] -- Found Backward: /workspace/ros2_ws/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/vendor/bombela/backward-cpp  
+[0.405s] -- Configuring done
+[0.429s] -- Generating done
+[0.443s] -- Build files have been written to: /workspace/ros2_ws/build/osrf_testing_tools_cpp
+[0.504s] Invoked command in '/workspace/ros2_ws/build/osrf_testing_tools_cpp' returned '0': /usr/bin/cmake /workspace/ros2_ws/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/opt/ros/humble
+[0.512s] Invoking command in '/workspace/ros2_ws/build/osrf_testing_tools_cpp': /usr/bin/cmake --build /workspace/ros2_ws/build/osrf_testing_tools_cpp -- -j5 -l5
+[0.586s] [  6%] [32mBuilding CXX object src/test_runner/CMakeFiles/test_runner.dir/main.cpp.o[0m
+[0.594s] [ 20%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/implementation_monitoring_override.cpp.o[0m
+[0.596s] [ 26%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/is_working.cpp.o[0m
+[0.597s] [ 33%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/initialize.cpp.o[0m
+[0.597s] [ 33%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/custom_memory_functions.cpp.o[0m
+[0.598s] In file included from [01m[K/usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h:586[m[K,
+[0.599s]                  from [01m[K/usr/include/c++/11/cerrno:41[m[K,
+[0.600s]                  from [01m[K/workspace/ros2_ws/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/test_runner/main.cpp:15[m[K:
+[0.600s] [01m[K/usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h:39:10:[m[K [01;31m[Kfatal error: [m[Kfeatures.h: No such file or directory
+[0.601s]    39 | #include [01;31m[K<features.h>[m[K
+[0.602s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[0.603s] compilation terminated.
+[0.603s] gmake[2]: *** [src/test_runner/CMakeFiles/test_runner.dir/build.make:76: src/test_runner/CMakeFiles/test_runner.dir/main.cpp.o] Error 1
+[0.604s] gmake[1]: *** [CMakeFiles/Makefile2:185: src/test_runner/CMakeFiles/test_runner.dir/all] Error 2
+[0.605s] gmake[1]: *** Waiting for unfinished jobs....
+[0.608s] In file included from [01m[K/usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h:586[m[K,
+[0.608s]                  from [01m[K/usr/include/c++/11/string:38[m[K,
+[0.610s]                  from [01m[K/workspace/ros2_ws/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/is_working.hpp:18[m[K,
+[0.617s]                  from [01m[K/workspace/ros2_ws/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/is_working.cpp:15[m[K:
+[0.617s] [01m[K/usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h:39:10:[m[K [01;31m[Kfatal error: [m[Kfeatures.h: No such file or directory
+[0.618s]    39 | #include [01;31m[K<features.h>[m[K
+[0.619s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[0.619s] compilation terminated.
+[0.622s] gmake[2]: *** [src/memory_tools/CMakeFiles/memory_tools.dir/build.make:118: src/memory_tools/CMakeFiles/memory_tools.dir/is_working.cpp.o] Error 1
+[0.623s] gmake[2]: *** Waiting for unfinished jobs....
+[0.624s] [ 40%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/memory_tools_service.cpp.o[0m
+[0.625s] In file included from [01m[K/usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h:586[m[K,
+[0.625s]                  from [01m[K/usr/include/c++/11/bits/atomic_base.h:35[m[K,
+[0.626s]                  from [01m[K/usr/include/c++/11/atomic:41[m[K,
+[0.626s]                  from [01m[K/workspace/ros2_ws/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/custom_memory_functions.cpp:15[m[K:
+[0.627s] [01m[K/usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h:39:10:[m[K [01;31m[Kfatal error: [m[Kfeatures.h: No such file or directory
+[0.628s]    39 | #include [01;31m[K<features.h>[m[K
+[0.629s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[0.629s] compilation terminated.
+[0.630s] gmake[2]: *** [src/memory_tools/CMakeFiles/memory_tools.dir/build.make:76: src/memory_tools/CMakeFiles/memory_tools.dir/custom_memory_functions.cpp.o] Error 1
+[0.631s] In file included from [01m[K/usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h:586[m[K,
+[0.631s]                  from [01m[K/usr/include/c++/11/bits/atomic_base.h:35[m[K,
+[0.632s]                  from [01m[K/usr/include/c++/11/atomic:41[m[K,
+[0.633s]                  from [01m[K/workspace/ros2_ws/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/initialize.cpp:15[m[K:
+[0.634s] [01m[K/usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h:39:10:[m[K [01;31m[Kfatal error: [m[Kfeatures.h: No such file or directory
+[0.635s]    39 | #include [01;31m[K<features.h>[m[K
+[0.636s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[0.637s] compilation terminated.
+[0.638s] gmake[2]: *** [src/memory_tools/CMakeFiles/memory_tools.dir/build.make:104: src/memory_tools/CMakeFiles/memory_tools.dir/initialize.cpp.o] Error 1
+[0.639s] In file included from [01m[K/usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h:586[m[K,
+[0.639s]                  from [01m[K/usr/include/c++/11/bits/stl_algobase.h:59[m[K,
+[0.641s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[0.641s]                  from [01m[K/workspace/ros2_ws/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/memory_tools_service.cpp:15[m[K:
+[0.641s] [01m[K/usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h:39:10:[m[K [01;31m[Kfatal error: [m[Kfeatures.h: No such file or directory
+[0.642s]    39 | #include [01;31m[K<features.h>[m[K
+[0.642s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[0.642s] compilation terminated.
+[0.642s] gmake[2]: *** [src/memory_tools/CMakeFiles/memory_tools.dir/build.make:132: src/memory_tools/CMakeFiles/memory_tools.dir/memory_tools_service.cpp.o] Error 1
+[0.643s] gmake[1]: *** [CMakeFiles/Makefile2:133: src/memory_tools/CMakeFiles/memory_tools.dir/all] Error 2
+[0.643s] gmake: *** [Makefile:136: all] Error 2
+[0.645s] Invoked command in '/workspace/ros2_ws/build/osrf_testing_tools_cpp' returned '2': /usr/bin/cmake --build /workspace/ros2_ws/build/osrf_testing_tools_cpp -- -j5 -l5

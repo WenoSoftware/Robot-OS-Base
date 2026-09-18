@@ -1,0 +1,130 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-00fdf2e367d1635f2338.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-Release-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/memory_tools",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.memory_tools-Release-b0add6ae3c9f339eead2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/memory_tools",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "src/test_runner",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.test_runner-Release-e2587549004575cd9fc6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/test_runner",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "osrf_testing_tools_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "memory_tools::@13acc8aa1183a2cec3fa",
+					"jsonFile" : "target-memory_tools-Release-a8e3b64730424c23edcf.json",
+					"name" : "memory_tools",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "memory_tools_interpose::@13acc8aa1183a2cec3fa",
+					"jsonFile" : "target-memory_tools_interpose-Release-ac7e7c86d92045ddbf78.json",
+					"name" : "memory_tools_interpose",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "test_runner::@a825133b187fdc5bed9f",
+					"jsonFile" : "target-test_runner-Release-a06d3b25ff0015a92aae.json",
+					"name" : "test_runner",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspace/ros2_ws/build/osrf_testing_tools_cpp",
+		"source" : "/workspace/ros2_ws/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

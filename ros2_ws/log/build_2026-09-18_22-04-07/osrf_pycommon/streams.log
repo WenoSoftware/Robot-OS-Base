@@ -1,0 +1,20 @@
+[0.356s] Invoking command in '/workspace/ros2_ws/src/osrf/osrf_pycommon': PYTHONPATH=/workspace/ros2_ws/build/osrf_pycommon/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/opt/ros/humble/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/osrf_pycommon build --build-base /workspace/ros2_ws/build/osrf_pycommon/build install --record /workspace/ros2_ws/build/osrf_pycommon/install.log --single-version-externally-managed install_data
+[0.403s] running egg_info
+[0.403s] writing ../../../build/osrf_pycommon/osrf_pycommon.egg-info/PKG-INFO
+[0.404s] writing dependency_links to ../../../build/osrf_pycommon/osrf_pycommon.egg-info/dependency_links.txt
+[0.405s] writing requirements to ../../../build/osrf_pycommon/osrf_pycommon.egg-info/requires.txt
+[0.405s] writing top-level names to ../../../build/osrf_pycommon/osrf_pycommon.egg-info/top_level.txt
+[0.407s] reading manifest file '../../../build/osrf_pycommon/osrf_pycommon.egg-info/SOURCES.txt'
+[0.408s] reading manifest template 'MANIFEST.in'
+[0.409s] adding license file 'LICENSE'
+[0.410s] writing manifest file '../../../build/osrf_pycommon/osrf_pycommon.egg-info/SOURCES.txt'
+[0.410s] running build
+[0.410s] running build_py
+[0.412s] running install
+[0.412s] running install_lib
+[0.414s] running install_data
+[0.415s] running install_egg_info
+[0.415s] removing '/opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon-2.1.7-py3.10.egg-info' (and everything under it)
+[0.415s] Copying ../../../build/osrf_pycommon/osrf_pycommon.egg-info to /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon-2.1.7-py3.10.egg-info
+[0.418s] running install_scripts
+[0.427s] writing list of installed files to '/workspace/ros2_ws/build/osrf_pycommon/install.log'

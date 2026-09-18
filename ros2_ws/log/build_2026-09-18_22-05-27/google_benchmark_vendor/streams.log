@@ -1,0 +1,6 @@
+[0.091s] Invoking command in '/workspace/ros2_ws/build/google_benchmark_vendor': /usr/bin/cmake --build /workspace/ros2_ws/build/google_benchmark_vendor -- -j5 -l5
+[0.173s] Invoked command in '/workspace/ros2_ws/build/google_benchmark_vendor' returned '0': /usr/bin/cmake --build /workspace/ros2_ws/build/google_benchmark_vendor -- -j5 -l5
+[0.175s] Invoking command in '/workspace/ros2_ws/build/google_benchmark_vendor': /usr/bin/cmake --install /workspace/ros2_ws/build/google_benchmark_vendor
+[0.194s] -- Install configuration: "Release"
+[0.195s] -- Up-to-date: /opt/ros/humble/share/google_benchmark_vendor/package.xml
+[0.219s] Invoked command in '/workspace/ros2_ws/build/google_benchmark_vendor' returned '0': /usr/bin/cmake --install /workspace/ros2_ws/build/google_benchmark_vendor

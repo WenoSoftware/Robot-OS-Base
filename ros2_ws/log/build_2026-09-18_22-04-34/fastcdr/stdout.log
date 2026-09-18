@@ -1,0 +1,14 @@
+-- Configuring Fast CDR
+-- Version: 1.0.24
+-- To change the version modify the file configure.ac
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspace/ros2_ws/build/fastcdr
+[ 14%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/FastCdr.cpp.o[0m
+[ 28%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/Cdr.cpp.o[0m
+[ 71%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/FastBuffer.cpp.o[0m
+[ 71%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/NotEnoughMemoryException.cpp.o[0m
+[ 71%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/Exception.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/BadParamException.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libfastcdr.so[0m
+[100%] Built target fastcdr

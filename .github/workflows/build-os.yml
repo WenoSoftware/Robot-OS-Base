@@ -19,10 +19,12 @@ jobs:
 
       - name: Configure Buildroot
         run: |
+          cd buildroot
           make qemu_aarch64_virt_defconfig
 
       - name: Compile OS Image
         run: |
+          cd buildroot
           export FORCE_UNSAFE_CONFIGURE=1
           make -j$(nproc)
 
@@ -30,4 +32,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: weno-robot-images
-          path: output/images/
+          path: buildroot/output/images/

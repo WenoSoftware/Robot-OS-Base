@@ -1,0 +1,14 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /workspace/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/workspace/buildroot/output/host/aarch64-buildroot-linux-gnu/bin/ld: cannot find Scrt1.o: No such file or directory
+/workspace/buildroot/output/host/aarch64-buildroot-linux-gnu/bin/ld: cannot find crti.o: No such file or directory
+/workspace/buildroot/output/host/aarch64-buildroot-linux-gnu/bin/ld: cannot find -lc: No such file or directory
+/workspace/buildroot/output/host/aarch64-buildroot-linux-gnu/bin/ld: cannot find crtn.o: No such file or directory
+collect2: error: ld returned 1 exit status
+
+

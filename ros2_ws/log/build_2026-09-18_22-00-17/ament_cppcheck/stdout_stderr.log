@@ -1,0 +1,25 @@
+running egg_info
+writing ../../../../build/ament_cppcheck/ament_cppcheck.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/ament_cppcheck/ament_cppcheck.egg-info/dependency_links.txt
+writing entry points to ../../../../build/ament_cppcheck/ament_cppcheck.egg-info/entry_points.txt
+writing requirements to ../../../../build/ament_cppcheck/ament_cppcheck.egg-info/requires.txt
+writing top-level names to ../../../../build/ament_cppcheck/ament_cppcheck.egg-info/top_level.txt
+reading manifest file '../../../../build/ament_cppcheck/ament_cppcheck.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/ament_cppcheck/ament_cppcheck.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /opt/ros/humble/lib/python3.10/site-packages/ament_cppcheck
+copying /workspace/ros2_ws/build/ament_cppcheck/build/lib/ament_cppcheck/__init__.py -> /opt/ros/humble/lib/python3.10/site-packages/ament_cppcheck
+copying /workspace/ros2_ws/build/ament_cppcheck/build/lib/ament_cppcheck/main.py -> /opt/ros/humble/lib/python3.10/site-packages/ament_cppcheck
+byte-compiling /opt/ros/humble/lib/python3.10/site-packages/ament_cppcheck/__init__.py to __init__.cpython-310.pyc
+byte-compiling /opt/ros/humble/lib/python3.10/site-packages/ament_cppcheck/main.py to main.cpython-310.pyc
+running install_data
+copying package.xml -> /opt/ros/humble/share/ament_cppcheck
+copying resource/ament_cppcheck -> /opt/ros/humble/share/ament_index/resource_index/packages
+running install_egg_info
+Copying ../../../../build/ament_cppcheck/ament_cppcheck.egg-info to /opt/ros/humble/lib/python3.10/site-packages/ament_cppcheck-0.12.15-py3.10.egg-info
+running install_scripts
+Installing ament_cppcheck script to /opt/ros/humble/bin
+writing list of installed files to '/workspace/ros2_ws/build/ament_cppcheck/install.log'

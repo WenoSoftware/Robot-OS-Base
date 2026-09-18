@@ -1,0 +1,29 @@
+[0.649s] Invoking command in '/workspace/ros2_ws/src/ament/ament_lint/ament_lint': PYTHONPATH=/workspace/ros2_ws/build/ament_lint/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/opt/ros/humble/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/ament_lint build --build-base /workspace/ros2_ws/build/ament_lint/build install --record /workspace/ros2_ws/build/ament_lint/install.log --single-version-externally-managed install_data
+[0.716s] running egg_info
+[0.716s] writing ../../../../build/ament_lint/ament_lint.egg-info/PKG-INFO
+[0.717s] writing dependency_links to ../../../../build/ament_lint/ament_lint.egg-info/dependency_links.txt
+[0.718s] writing entry points to ../../../../build/ament_lint/ament_lint.egg-info/entry_points.txt
+[0.719s] writing requirements to ../../../../build/ament_lint/ament_lint.egg-info/requires.txt
+[0.719s] writing top-level names to ../../../../build/ament_lint/ament_lint.egg-info/top_level.txt
+[0.723s] reading manifest file '../../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[0.725s] writing manifest file '../../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[0.729s] running build
+[0.730s] running build_py
+[0.732s] running install
+[0.733s] running install_lib
+[0.736s] creating /opt/ros/humble/lib/python3.10/site-packages/ament_lint
+[0.737s] copying /workspace/ros2_ws/build/ament_lint/build/lib/ament_lint/__init__.py -> /opt/ros/humble/lib/python3.10/site-packages/ament_lint
+[0.738s] copying /workspace/ros2_ws/build/ament_lint/build/lib/ament_lint/pytest_marker.py -> /opt/ros/humble/lib/python3.10/site-packages/ament_lint
+[0.741s] byte-compiling /opt/ros/humble/lib/python3.10/site-packages/ament_lint/__init__.py to __init__.cpython-310.pyc
+[0.742s] byte-compiling /opt/ros/humble/lib/python3.10/site-packages/ament_lint/pytest_marker.py to pytest_marker.cpython-310.pyc
+[0.743s] running install_data
+[0.744s] copying package.xml -> /opt/ros/humble/share/ament_lint
+[0.744s] creating /opt/ros/humble/share/ament_index
+[0.745s] creating /opt/ros/humble/share/ament_index/resource_index
+[0.746s] creating /opt/ros/humble/share/ament_index/resource_index/packages
+[0.748s] copying resource/ament_lint -> /opt/ros/humble/share/ament_index/resource_index/packages
+[0.749s] running install_egg_info
+[0.750s] Copying ../../../../build/ament_lint/ament_lint.egg-info to /opt/ros/humble/lib/python3.10/site-packages/ament_lint-0.12.15-py3.10.egg-info
+[0.762s] running install_scripts
+[0.788s] writing list of installed files to '/workspace/ros2_ws/build/ament_lint/install.log'
+[0.814s] Invoked command in '/workspace/ros2_ws/src/ament/ament_lint/ament_lint' returned '0': PYTHONPATH=/workspace/ros2_ws/build/ament_lint/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/opt/ros/humble/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/ament_lint build --build-base /workspace/ros2_ws/build/ament_lint/build install --record /workspace/ros2_ws/build/ament_lint/install.log --single-version-externally-managed install_data

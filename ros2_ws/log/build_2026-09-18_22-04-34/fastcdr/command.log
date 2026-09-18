@@ -1,0 +1,3 @@
+Invoking command in '/workspace/ros2_ws/build/fastcdr': /usr/bin/cmake /workspace/ros2_ws/src/eProsima/Fast-CDR -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-I/usr/include/aarch64-linux-gnu -DCMAKE_C_FLAGS=-I/usr/include/aarch64-linux-gnu -DCMAKE_INSTALL_PREFIX=/opt/ros/humble
+Invoked command in '/workspace/ros2_ws/build/fastcdr' returned '0': /usr/bin/cmake /workspace/ros2_ws/src/eProsima/Fast-CDR -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-I/usr/include/aarch64-linux-gnu -DCMAKE_C_FLAGS=-I/usr/include/aarch64-linux-gnu -DCMAKE_INSTALL_PREFIX=/opt/ros/humble
+Invoking command in '/workspace/ros2_ws/build/fastcdr': /usr/bin/cmake --build /workspace/ros2_ws/build/fastcdr -- -j5 -l5

@@ -1,0 +1,6 @@
+Invoking command in '/workspace/ros2_ws/build/gtest_vendor': /usr/bin/cmake /workspace/ros2_ws/src/ament/googletest/googletest -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-I/usr/include/aarch64-linux-gnu -DCMAKE_C_FLAGS=-I/usr/include/aarch64-linux-gnu -DCMAKE_INSTALL_PREFIX=/opt/ros/humble
+Invoked command in '/workspace/ros2_ws/build/gtest_vendor' returned '0': /usr/bin/cmake /workspace/ros2_ws/src/ament/googletest/googletest -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-I/usr/include/aarch64-linux-gnu -DCMAKE_C_FLAGS=-I/usr/include/aarch64-linux-gnu -DCMAKE_INSTALL_PREFIX=/opt/ros/humble
+Invoking command in '/workspace/ros2_ws/build/gtest_vendor': /usr/bin/cmake --build /workspace/ros2_ws/build/gtest_vendor -- -j5 -l5
+Invoked command in '/workspace/ros2_ws/build/gtest_vendor' returned '0': /usr/bin/cmake --build /workspace/ros2_ws/build/gtest_vendor -- -j5 -l5
+Invoking command in '/workspace/ros2_ws/build/gtest_vendor': /usr/bin/cmake --install /workspace/ros2_ws/build/gtest_vendor
+Invoked command in '/workspace/ros2_ws/build/gtest_vendor' returned '0': /usr/bin/cmake --install /workspace/ros2_ws/build/gtest_vendor

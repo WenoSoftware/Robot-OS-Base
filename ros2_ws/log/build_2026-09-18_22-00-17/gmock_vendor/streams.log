@@ -1,0 +1,47 @@
+[0.011s] Invoking command in '/workspace/ros2_ws/build/gmock_vendor': CMAKE_PREFIX_PATH=/opt/ros/humble PKG_CONFIG_PATH=/opt/ros/humble/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/lib/pkgconfig PYTHONPATH=/opt/ros/humble/lib/python3.10/site-packages /usr/bin/cmake /workspace/ros2_ws/src/ament/googletest/googlemock -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/opt/ros/humble
+[0.020s] -- Configuring done
+[0.039s] -- Generating done
+[0.067s] -- Build files have been written to: /workspace/ros2_ws/build/gmock_vendor
+[0.068s] Invoked command in '/workspace/ros2_ws/build/gmock_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PKG_CONFIG_PATH=/opt/ros/humble/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/lib/pkgconfig PYTHONPATH=/opt/ros/humble/lib/python3.10/site-packages /usr/bin/cmake /workspace/ros2_ws/src/ament/googletest/googlemock -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/opt/ros/humble
+[0.071s] Invoking command in '/workspace/ros2_ws/build/gmock_vendor': CMAKE_PREFIX_PATH=/opt/ros/humble PKG_CONFIG_PATH=/opt/ros/humble/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/lib/pkgconfig PYTHONPATH=/opt/ros/humble/lib/python3.10/site-packages /usr/bin/cmake --build /workspace/ros2_ws/build/gmock_vendor -- -j5 -l5
+[0.179s] Invoked command in '/workspace/ros2_ws/build/gmock_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PKG_CONFIG_PATH=/opt/ros/humble/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/lib/pkgconfig PYTHONPATH=/opt/ros/humble/lib/python3.10/site-packages /usr/bin/cmake --build /workspace/ros2_ws/build/gmock_vendor -- -j5 -l5
+[0.180s] Invoking command in '/workspace/ros2_ws/build/gmock_vendor': CMAKE_PREFIX_PATH=/opt/ros/humble PKG_CONFIG_PATH=/opt/ros/humble/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/lib/pkgconfig PYTHONPATH=/opt/ros/humble/lib/python3.10/site-packages /usr/bin/cmake --install /workspace/ros2_ws/build/gmock_vendor
+[0.181s] -- Install configuration: "Release"
+[0.181s] -- Installing: /opt/ros/humble/share/gmock_vendor/cmake/gmock_vendorConfig.cmake
+[0.181s] -- Installing: /opt/ros/humble/share/gmock_vendor/package.xml
+[0.181s] -- Installing: /opt/ros/humble/src/gmock_vendor/CMakeLists.txt
+[0.181s] -- Installing: /opt/ros/humble/src/gmock_vendor/include/gmock
+[0.181s] -- Installing: /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-actions.h.pump
+[0.182s] -- Installing: /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h.pump
+[0.182s] -- Installing: /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-matchers.h
+[0.182s] -- Installing: /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-more-actions.h
+[0.182s] -- Installing: /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-matchers.h.pump
+[0.182s] -- Installing: /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-actions.h
+[0.182s] -- Installing: /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-matchers.h
+[0.182s] -- Installing: /opt/ros/humble/src/gmock_vendor/include/gmock/internal
+[0.182s] -- Installing: /opt/ros/humble/src/gmock_vendor/include/gmock/internal/gmock-port.h
+[0.182s] -- Installing: /opt/ros/humble/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h
+[0.182s] -- Installing: /opt/ros/humble/src/gmock_vendor/include/gmock/internal/gmock-pp.h
+[0.182s] -- Installing: /opt/ros/humble/src/gmock_vendor/include/gmock/internal/custom
+[0.183s] -- Installing: /opt/ros/humble/src/gmock_vendor/include/gmock/internal/custom/gmock-generated-actions.h.pump
+[0.183s] -- Installing: /opt/ros/humble/src/gmock_vendor/include/gmock/internal/custom/gmock-port.h
+[0.183s] -- Installing: /opt/ros/humble/src/gmock_vendor/include/gmock/internal/custom/gmock-matchers.h
+[0.183s] -- Installing: /opt/ros/humble/src/gmock_vendor/include/gmock/internal/custom/gmock-generated-actions.h
+[0.184s] -- Installing: /opt/ros/humble/src/gmock_vendor/include/gmock/internal/custom/README.md
+[0.184s] -- Installing: /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-function-mocker.h
+[0.184s] -- Installing: /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-more-matchers.h
+[0.184s] -- Installing: /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h
+[0.185s] -- Installing: /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-cardinalities.h
+[0.185s] -- Installing: /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-spec-builders.h
+[0.185s] -- Installing: /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-nice-strict.h
+[0.185s] -- Installing: /opt/ros/humble/src/gmock_vendor/include/gmock/gmock.h
+[0.185s] -- Installing: /opt/ros/humble/src/gmock_vendor/include/gmock/gmock-actions.h
+[0.185s] -- Installing: /opt/ros/humble/src/gmock_vendor/src
+[0.185s] -- Installing: /opt/ros/humble/src/gmock_vendor/src/gmock-internal-utils.cc
+[0.185s] -- Installing: /opt/ros/humble/src/gmock_vendor/src/gmock-cardinalities.cc
+[0.186s] -- Installing: /opt/ros/humble/src/gmock_vendor/src/gmock_main.cc
+[0.186s] -- Installing: /opt/ros/humble/src/gmock_vendor/src/gmock-matchers.cc
+[0.186s] -- Installing: /opt/ros/humble/src/gmock_vendor/src/gmock-all.cc
+[0.186s] -- Installing: /opt/ros/humble/src/gmock_vendor/src/gmock-spec-builders.cc
+[0.186s] -- Installing: /opt/ros/humble/src/gmock_vendor/src/gmock.cc
+[0.358s] Invoked command in '/workspace/ros2_ws/build/gmock_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PKG_CONFIG_PATH=/opt/ros/humble/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/lib/pkgconfig PYTHONPATH=/opt/ros/humble/lib/python3.10/site-packages /usr/bin/cmake --install /workspace/ros2_ws/build/gmock_vendor

@@ -1,0 +1,114 @@
+[1.382s] Invoking command in '/workspace/ros2_ws/src/ament/ament_package': PYTHONPATH=/workspace/ros2_ws/build/ament_package/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_package build --build-base /workspace/ros2_ws/build/ament_package/build install --record /workspace/ros2_ws/build/ament_package/install.log --single-version-externally-managed install_data
+[1.617s] running egg_info
+[1.619s] creating ../../../build/ament_package/ament_package.egg-info
+[1.620s] writing ../../../build/ament_package/ament_package.egg-info/PKG-INFO
+[1.621s] writing dependency_links to ../../../build/ament_package/ament_package.egg-info/dependency_links.txt
+[1.623s] writing requirements to ../../../build/ament_package/ament_package.egg-info/requires.txt
+[1.624s] writing top-level names to ../../../build/ament_package/ament_package.egg-info/top_level.txt
+[1.625s] writing manifest file '../../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[1.634s] reading manifest file '../../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[1.635s] adding license file 'LICENSE'
+[1.636s] writing manifest file '../../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[1.638s] running build
+[1.638s] running build_py
+[1.640s] creating /workspace/ros2_ws/build/ament_package/build
+[1.641s] creating /workspace/ros2_ws/build/ament_package/build/lib
+[1.642s] creating /workspace/ros2_ws/build/ament_package/build/lib/ament_package
+[1.643s] copying ament_package/__init__.py -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package
+[1.648s] copying ament_package/templates.py -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package
+[1.652s] creating /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template
+[1.654s] copying ament_package/template/__init__.py -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template
+[1.656s] creating /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.657s] copying ament_package/template/isolated_prefix_level/__init__.py -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.659s] copying ament_package/template/isolated_prefix_level/_order_isolated_packages.py -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.660s] creating /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.661s] copying ament_package/template/prefix_level/__init__.py -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.662s] copying ament_package/template/prefix_level/_local_setup_util.py -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.665s] creating /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/package_level
+[1.666s] copying ament_package/template/package_level/__init__.py -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/package_level
+[1.667s] creating /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.669s] copying ament_package/template/environment_hook/__init__.py -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.673s] copying ament_package/template/environment_hook/path.sh -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.674s] copying ament_package/template/environment_hook/pkg_config_path.sh -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.675s] copying ament_package/template/environment_hook/library_path.sh -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.677s] copying ament_package/template/environment_hook/ament_prefix_path.sh -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.679s] copying ament_package/template/environment_hook/pythonpath.sh.in -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.680s] copying ament_package/template/environment_hook/pkg_config_path.bat -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.683s] copying ament_package/template/environment_hook/path.bat -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.687s] copying ament_package/template/environment_hook/pythonpath.bat.in -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.689s] copying ament_package/template/environment_hook/ament_prefix_path.bat -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.690s] copying ament_package/template/isolated_prefix_level/local_setup.bat.in -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.692s] copying ament_package/template/isolated_prefix_level/local_setup.sh.in -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.696s] copying ament_package/template/isolated_prefix_level/local_setup.zsh -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.698s] copying ament_package/template/isolated_prefix_level/local_setup.bash -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.699s] copying ament_package/template/package_level/local_setup.bat.in -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/package_level
+[1.702s] copying ament_package/template/package_level/local_setup.zsh.in -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/package_level
+[1.703s] copying ament_package/template/package_level/local_setup.bash.in -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/package_level
+[1.705s] copying ament_package/template/package_level/local_setup.sh.in -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/package_level
+[1.707s] copying ament_package/template/prefix_level/local_setup.bat.in -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.708s] copying ament_package/template/prefix_level/setup.zsh -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.716s] copying ament_package/template/prefix_level/setup.sh.in -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.718s] copying ament_package/template/prefix_level/local_setup.sh.in -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.719s] copying ament_package/template/prefix_level/local_setup.zsh -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.721s] copying ament_package/template/prefix_level/setup.bash -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.724s] copying ament_package/template/prefix_level/setup.bat.in -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.726s] copying ament_package/template/prefix_level/local_setup.bash -> /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.734s] running install
+[1.734s] running install_lib
+[1.735s] creating /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package
+[1.736s] creating /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template
+[1.737s] creating /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[1.738s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.bat.in -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[1.740s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/__init__.py -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[1.741s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/_order_isolated_packages.py -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[1.742s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.sh.in -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[1.743s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.zsh -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[1.744s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.bash -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[1.747s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/__init__.py -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template
+[1.749s] creating /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.750s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.bat.in -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.752s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.zsh -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.754s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.sh.in -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.755s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/prefix_level/__init__.py -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.755s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.sh.in -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.756s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.zsh -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.757s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/prefix_level/_local_setup_util.py -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.758s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.bash -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.761s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.bat.in -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.762s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.bash -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.762s] creating /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/package_level
+[1.763s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.bat.in -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/package_level
+[1.767s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.zsh.in -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/package_level
+[1.770s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/package_level/__init__.py -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/package_level
+[1.773s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.bash.in -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/package_level
+[1.774s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.sh.in -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/package_level
+[1.777s] creating /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.778s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/environment_hook/__init__.py -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.780s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/environment_hook/path.sh -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.782s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pkg_config_path.sh -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.782s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/environment_hook/library_path.sh -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.784s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/environment_hook/ament_prefix_path.sh -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.784s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pythonpath.sh.in -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.786s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pkg_config_path.bat -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.786s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/environment_hook/path.bat -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.787s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pythonpath.bat.in -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.787s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/template/environment_hook/ament_prefix_path.bat -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.789s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/__init__.py -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package
+[1.791s] copying /workspace/ros2_ws/build/ament_package/build/lib/ament_package/templates.py -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package
+[1.793s] byte-compiling /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level/__init__.py to __init__.cpython-310.pyc
+[1.795s] byte-compiling /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level/_order_isolated_packages.py to _order_isolated_packages.cpython-310.pyc
+[1.796s] byte-compiling /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/__init__.py to __init__.cpython-310.pyc
+[1.802s] byte-compiling /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/prefix_level/__init__.py to __init__.cpython-310.pyc
+[1.805s] byte-compiling /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/prefix_level/_local_setup_util.py to _local_setup_util.cpython-310.pyc
+[1.810s] byte-compiling /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/package_level/__init__.py to __init__.cpython-310.pyc
+[1.812s] byte-compiling /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/template/environment_hook/__init__.py to __init__.cpython-310.pyc
+[1.812s] byte-compiling /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/__init__.py to __init__.cpython-310.pyc
+[1.833s] byte-compiling /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package/templates.py to templates.cpython-310.pyc
+[1.833s] running install_data
+[1.840s] copying package.xml -> /workspace/ros2_ws/install/share/ament_package
+[1.847s] copying resource/ament_package -> /workspace/ros2_ws/install/share/ament_index/resource_index/packages
+[1.847s] running install_egg_info
+[1.848s] Copying ../../../build/ament_package/ament_package.egg-info to /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_package-0.14.2-py3.10.egg-info
+[1.849s] running install_scripts
+[1.864s] writing list of installed files to '/workspace/ros2_ws/build/ament_package/install.log'
+[2.018s] Invoked command in '/workspace/ros2_ws/src/ament/ament_package' returned '0': PYTHONPATH=/workspace/ros2_ws/build/ament_package/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_package build --build-base /workspace/ros2_ws/build/ament_package/build install --record /workspace/ros2_ws/build/ament_package/install.log --single-version-externally-managed install_data

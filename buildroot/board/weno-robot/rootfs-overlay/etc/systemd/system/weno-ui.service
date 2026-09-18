@@ -1,0 +1,16 @@
+[Unit]
+Description=Weno Robot Flutter UI
+After=wayland.service weston.service network.target
+Wants=wayland.service weston.service
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/weno_ui
+Environment=XDG_RUNTIME_DIR=/run/user/0
+ExecStart=/opt/weno_ui/robotui
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

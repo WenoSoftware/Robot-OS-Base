@@ -1,0 +1,6 @@
+Invoking command in '/workspace/ros2_ws/build/gtest_vendor': /usr/bin/cmake /workspace/ros2_ws/src/ament/googletest/googletest -DCMAKE_SYSTEM_NAME=Linux -DCMAKE_SYSTEM_PROCESSOR=aarch64 -DCMAKE_SYSROOT=/workspace/buildroot/output/staging -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install
+Invoked command in '/workspace/ros2_ws/build/gtest_vendor' returned '0': /usr/bin/cmake /workspace/ros2_ws/src/ament/googletest/googletest -DCMAKE_SYSTEM_NAME=Linux -DCMAKE_SYSTEM_PROCESSOR=aarch64 -DCMAKE_SYSROOT=/workspace/buildroot/output/staging -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install
+Invoking command in '/workspace/ros2_ws/build/gtest_vendor': /usr/bin/cmake --build /workspace/ros2_ws/build/gtest_vendor -- -j5 -l5
+Invoked command in '/workspace/ros2_ws/build/gtest_vendor' returned '0': /usr/bin/cmake --build /workspace/ros2_ws/build/gtest_vendor -- -j5 -l5
+Invoking command in '/workspace/ros2_ws/build/gtest_vendor': /usr/bin/cmake --install /workspace/ros2_ws/build/gtest_vendor
+Invoked command in '/workspace/ros2_ws/build/gtest_vendor' returned '0': /usr/bin/cmake --install /workspace/ros2_ws/build/gtest_vendor

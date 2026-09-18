@@ -1,0 +1,7 @@
+[35m[1mConsolidate compiler generated dependencies of target memory_tools[0m
+[  6%] [32mBuilding CXX object src/test_runner/CMakeFiles/test_runner.dir/main.cpp.o[0m
+[ 20%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/custom_memory_functions.cpp.o[0m
+[ 20%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/is_working.cpp.o[0m
+[ 33%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/initialize.cpp.o[0m
+[ 33%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/memory_tools_service.cpp.o[0m
+[ 40%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/monitoring.cpp.o[0m

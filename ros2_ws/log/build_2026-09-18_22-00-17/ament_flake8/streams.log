@@ -1,0 +1,41 @@
+[0.419s] Invoking command in '/workspace/ros2_ws/src/ament/ament_lint/ament_flake8': AMENT_PREFIX_PATH=/opt/ros/humble CMAKE_PREFIX_PATH=/opt/ros/humble PATH=/opt/ros/humble/bin:${PATH} PYTHONPATH=/workspace/ros2_ws/build/ament_flake8/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/ament_flake8 build --build-base /workspace/ros2_ws/build/ament_flake8/build install --record /workspace/ros2_ws/build/ament_flake8/install.log --single-version-externally-managed install_data
+[0.498s] running egg_info
+[0.498s] creating ../../../../build/ament_flake8/ament_flake8.egg-info
+[0.499s] writing ../../../../build/ament_flake8/ament_flake8.egg-info/PKG-INFO
+[0.500s] writing dependency_links to ../../../../build/ament_flake8/ament_flake8.egg-info/dependency_links.txt
+[0.502s] writing entry points to ../../../../build/ament_flake8/ament_flake8.egg-info/entry_points.txt
+[0.507s] writing requirements to ../../../../build/ament_flake8/ament_flake8.egg-info/requires.txt
+[0.508s] writing top-level names to ../../../../build/ament_flake8/ament_flake8.egg-info/top_level.txt
+[0.510s] writing manifest file '../../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[0.513s] reading manifest file '../../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[0.515s] writing manifest file '../../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[0.516s] running build
+[0.517s] running build_py
+[0.518s] creating /workspace/ros2_ws/build/ament_flake8/build
+[0.519s] creating /workspace/ros2_ws/build/ament_flake8/build/lib
+[0.521s] creating /workspace/ros2_ws/build/ament_flake8/build/lib/ament_flake8
+[0.523s] copying ament_flake8/__init__.py -> /workspace/ros2_ws/build/ament_flake8/build/lib/ament_flake8
+[0.526s] copying ament_flake8/pytest_marker.py -> /workspace/ros2_ws/build/ament_flake8/build/lib/ament_flake8
+[0.526s] copying ament_flake8/main.py -> /workspace/ros2_ws/build/ament_flake8/build/lib/ament_flake8
+[0.527s] creating /workspace/ros2_ws/build/ament_flake8/build/lib/ament_flake8/configuration
+[0.528s] copying ament_flake8/configuration/ament_flake8.ini -> /workspace/ros2_ws/build/ament_flake8/build/lib/ament_flake8/configuration
+[0.531s] running install
+[0.532s] running install_lib
+[0.532s] creating /opt/ros/humble/lib/python3.10/site-packages/ament_flake8
+[0.533s] creating /opt/ros/humble/lib/python3.10/site-packages/ament_flake8/configuration
+[0.535s] copying /workspace/ros2_ws/build/ament_flake8/build/lib/ament_flake8/configuration/ament_flake8.ini -> /opt/ros/humble/lib/python3.10/site-packages/ament_flake8/configuration
+[0.537s] copying /workspace/ros2_ws/build/ament_flake8/build/lib/ament_flake8/__init__.py -> /opt/ros/humble/lib/python3.10/site-packages/ament_flake8
+[0.539s] copying /workspace/ros2_ws/build/ament_flake8/build/lib/ament_flake8/pytest_marker.py -> /opt/ros/humble/lib/python3.10/site-packages/ament_flake8
+[0.539s] copying /workspace/ros2_ws/build/ament_flake8/build/lib/ament_flake8/main.py -> /opt/ros/humble/lib/python3.10/site-packages/ament_flake8
+[0.540s] byte-compiling /opt/ros/humble/lib/python3.10/site-packages/ament_flake8/__init__.py to __init__.cpython-310.pyc
+[0.541s] byte-compiling /opt/ros/humble/lib/python3.10/site-packages/ament_flake8/pytest_marker.py to pytest_marker.cpython-310.pyc
+[0.542s] byte-compiling /opt/ros/humble/lib/python3.10/site-packages/ament_flake8/main.py to main.cpython-310.pyc
+[0.542s] running install_data
+[0.543s] copying package.xml -> /opt/ros/humble/share/ament_flake8
+[0.544s] copying resource/ament_flake8 -> /opt/ros/humble/share/ament_index/resource_index/packages
+[0.545s] running install_egg_info
+[0.546s] Copying ../../../../build/ament_flake8/ament_flake8.egg-info to /opt/ros/humble/lib/python3.10/site-packages/ament_flake8-0.12.15-py3.10.egg-info
+[0.548s] running install_scripts
+[0.556s] Installing ament_flake8 script to /opt/ros/humble/bin
+[0.558s] writing list of installed files to '/workspace/ros2_ws/build/ament_flake8/install.log'
+[0.574s] Invoked command in '/workspace/ros2_ws/src/ament/ament_lint/ament_flake8' returned '0': AMENT_PREFIX_PATH=/opt/ros/humble CMAKE_PREFIX_PATH=/opt/ros/humble PATH=/opt/ros/humble/bin:${PATH} PYTHONPATH=/workspace/ros2_ws/build/ament_flake8/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/ament_flake8 build --build-base /workspace/ros2_ws/build/ament_flake8/build install --record /workspace/ros2_ws/build/ament_flake8/install.log --single-version-externally-managed install_data

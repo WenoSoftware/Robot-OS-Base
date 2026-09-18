@@ -1,0 +1,27 @@
+[0.678s] Invoking command in '/workspace/ros2_ws/src/ament/ament_lint/ament_cppcheck': PYTHONPATH=/workspace/ros2_ws/build/ament_cppcheck/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/opt/ros/humble/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/ament_cppcheck build --build-base /workspace/ros2_ws/build/ament_cppcheck/build install --record /workspace/ros2_ws/build/ament_cppcheck/install.log --single-version-externally-managed install_data
+[0.726s] running egg_info
+[0.728s] writing ../../../../build/ament_cppcheck/ament_cppcheck.egg-info/PKG-INFO
+[0.732s] writing dependency_links to ../../../../build/ament_cppcheck/ament_cppcheck.egg-info/dependency_links.txt
+[0.735s] writing entry points to ../../../../build/ament_cppcheck/ament_cppcheck.egg-info/entry_points.txt
+[0.739s] writing requirements to ../../../../build/ament_cppcheck/ament_cppcheck.egg-info/requires.txt
+[0.740s] writing top-level names to ../../../../build/ament_cppcheck/ament_cppcheck.egg-info/top_level.txt
+[0.751s] reading manifest file '../../../../build/ament_cppcheck/ament_cppcheck.egg-info/SOURCES.txt'
+[0.754s] writing manifest file '../../../../build/ament_cppcheck/ament_cppcheck.egg-info/SOURCES.txt'
+[0.759s] running build
+[0.760s] running build_py
+[0.763s] running install
+[0.763s] running install_lib
+[0.765s] creating /opt/ros/humble/lib/python3.10/site-packages/ament_cppcheck
+[0.766s] copying /workspace/ros2_ws/build/ament_cppcheck/build/lib/ament_cppcheck/__init__.py -> /opt/ros/humble/lib/python3.10/site-packages/ament_cppcheck
+[0.767s] copying /workspace/ros2_ws/build/ament_cppcheck/build/lib/ament_cppcheck/main.py -> /opt/ros/humble/lib/python3.10/site-packages/ament_cppcheck
+[0.769s] byte-compiling /opt/ros/humble/lib/python3.10/site-packages/ament_cppcheck/__init__.py to __init__.cpython-310.pyc
+[0.770s] byte-compiling /opt/ros/humble/lib/python3.10/site-packages/ament_cppcheck/main.py to main.cpython-310.pyc
+[0.775s] running install_data
+[0.777s] copying package.xml -> /opt/ros/humble/share/ament_cppcheck
+[0.778s] copying resource/ament_cppcheck -> /opt/ros/humble/share/ament_index/resource_index/packages
+[0.779s] running install_egg_info
+[0.788s] Copying ../../../../build/ament_cppcheck/ament_cppcheck.egg-info to /opt/ros/humble/lib/python3.10/site-packages/ament_cppcheck-0.12.15-py3.10.egg-info
+[0.793s] running install_scripts
+[0.816s] Installing ament_cppcheck script to /opt/ros/humble/bin
+[0.818s] writing list of installed files to '/workspace/ros2_ws/build/ament_cppcheck/install.log'
+[0.871s] Invoked command in '/workspace/ros2_ws/src/ament/ament_lint/ament_cppcheck' returned '0': PYTHONPATH=/workspace/ros2_ws/build/ament_cppcheck/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/opt/ros/humble/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/ament_cppcheck build --build-base /workspace/ros2_ws/build/ament_cppcheck/build install --record /workspace/ros2_ws/build/ament_cppcheck/install.log --single-version-externally-managed install_data

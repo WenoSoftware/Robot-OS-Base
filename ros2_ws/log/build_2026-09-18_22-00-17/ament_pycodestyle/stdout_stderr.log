@@ -1,0 +1,27 @@
+running egg_info
+writing ../../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/dependency_links.txt
+writing entry points to ../../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/entry_points.txt
+writing requirements to ../../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/requires.txt
+writing top-level names to ../../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/top_level.txt
+reading manifest file '../../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /opt/ros/humble/lib/python3.10/site-packages/ament_pycodestyle
+creating /opt/ros/humble/lib/python3.10/site-packages/ament_pycodestyle/configuration
+copying /workspace/ros2_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle/configuration/ament_pycodestyle.ini -> /opt/ros/humble/lib/python3.10/site-packages/ament_pycodestyle/configuration
+copying /workspace/ros2_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle/__init__.py -> /opt/ros/humble/lib/python3.10/site-packages/ament_pycodestyle
+copying /workspace/ros2_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle/main.py -> /opt/ros/humble/lib/python3.10/site-packages/ament_pycodestyle
+byte-compiling /opt/ros/humble/lib/python3.10/site-packages/ament_pycodestyle/__init__.py to __init__.cpython-310.pyc
+byte-compiling /opt/ros/humble/lib/python3.10/site-packages/ament_pycodestyle/main.py to main.cpython-310.pyc
+running install_data
+copying package.xml -> /opt/ros/humble/share/ament_pycodestyle
+copying resource/ament_pycodestyle -> /opt/ros/humble/share/ament_index/resource_index/packages
+running install_egg_info
+Copying ../../../../build/ament_pycodestyle/ament_pycodestyle.egg-info to /opt/ros/humble/lib/python3.10/site-packages/ament_pycodestyle-0.12.15-py3.10.egg-info
+running install_scripts
+Installing ament_pycodestyle script to /opt/ros/humble/bin
+writing list of installed files to '/workspace/ros2_ws/build/ament_pycodestyle/install.log'

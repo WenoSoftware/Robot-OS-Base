@@ -1,0 +1,41 @@
+[1.342s] Invoking command in '/workspace/ros2_ws/src/ament/ament_lint/ament_pycodestyle': PYTHONPATH=/workspace/ros2_ws/build/ament_pycodestyle/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/ament_pycodestyle build --build-base /workspace/ros2_ws/build/ament_pycodestyle/build install --record /workspace/ros2_ws/build/ament_pycodestyle/install.log --single-version-externally-managed install_data
+[1.583s] running egg_info
+[1.584s] creating ../../../../build/ament_pycodestyle/ament_pycodestyle.egg-info
+[1.584s] writing ../../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/PKG-INFO
+[1.586s] writing dependency_links to ../../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/dependency_links.txt
+[1.587s] writing entry points to ../../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/entry_points.txt
+[1.590s] writing requirements to ../../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/requires.txt
+[1.591s] writing top-level names to ../../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/top_level.txt
+[1.592s] writing manifest file '../../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/SOURCES.txt'
+[1.596s] reading manifest file '../../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/SOURCES.txt'
+[1.600s] writing manifest file '../../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/SOURCES.txt'
+[1.601s] running build
+[1.602s] running build_py
+[1.603s] creating /workspace/ros2_ws/build/ament_pycodestyle/build
+[1.604s] creating /workspace/ros2_ws/build/ament_pycodestyle/build/lib
+[1.604s] creating /workspace/ros2_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle
+[1.605s] copying ament_pycodestyle/__init__.py -> /workspace/ros2_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle
+[1.606s] copying ament_pycodestyle/main.py -> /workspace/ros2_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle
+[1.607s] creating /workspace/ros2_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle/configuration
+[1.610s] copying ament_pycodestyle/configuration/ament_pycodestyle.ini -> /workspace/ros2_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle/configuration
+[1.612s] running install
+[1.613s] running install_lib
+[1.614s] creating /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_pycodestyle
+[1.615s] creating /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_pycodestyle/configuration
+[1.617s] copying /workspace/ros2_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle/configuration/ament_pycodestyle.ini -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_pycodestyle/configuration
+[1.619s] copying /workspace/ros2_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle/__init__.py -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_pycodestyle
+[1.620s] copying /workspace/ros2_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle/main.py -> /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_pycodestyle
+[1.624s] byte-compiling /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_pycodestyle/__init__.py to __init__.cpython-310.pyc
+[1.630s] byte-compiling /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_pycodestyle/main.py to main.cpython-310.pyc
+[1.635s] running install_data
+[1.637s] copying package.xml -> /workspace/ros2_ws/install/share/ament_pycodestyle
+[1.641s] creating /workspace/ros2_ws/install/share/ament_index
+[1.641s] creating /workspace/ros2_ws/install/share/ament_index/resource_index
+[1.642s] creating /workspace/ros2_ws/install/share/ament_index/resource_index/packages
+[1.644s] copying resource/ament_pycodestyle -> /workspace/ros2_ws/install/share/ament_index/resource_index/packages
+[1.647s] running install_egg_info
+[1.650s] Copying ../../../../build/ament_pycodestyle/ament_pycodestyle.egg-info to /workspace/ros2_ws/install/lib/python3.10/site-packages/ament_pycodestyle-0.12.15-py3.10.egg-info
+[1.664s] running install_scripts
+[1.689s] Installing ament_pycodestyle script to /workspace/ros2_ws/install/bin
+[1.691s] writing list of installed files to '/workspace/ros2_ws/build/ament_pycodestyle/install.log'
+[1.849s] Invoked command in '/workspace/ros2_ws/src/ament/ament_lint/ament_pycodestyle' returned '0': PYTHONPATH=/workspace/ros2_ws/build/ament_pycodestyle/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/ament_pycodestyle build --build-base /workspace/ros2_ws/build/ament_pycodestyle/build install --record /workspace/ros2_ws/build/ament_pycodestyle/install.log --single-version-externally-managed install_data

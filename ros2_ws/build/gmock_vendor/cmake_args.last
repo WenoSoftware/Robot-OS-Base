@@ -1,0 +1,1 @@
+['-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_CXX_FLAGS=-I/usr/include/aarch64-linux-gnu', '-DCMAKE_C_FLAGS=-I/usr/include/aarch64-linux-gnu']

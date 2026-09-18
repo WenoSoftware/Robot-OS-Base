@@ -1,0 +1,25 @@
+[0.104s] Invoking command in '/workspace/ros2_ws/build/google_benchmark_vendor': /usr/bin/cmake --build /workspace/ros2_ws/build/google_benchmark_vendor -- -j5 -l5
+[0.210s] [100%] Built target benchmark-1.5.3
+[0.234s] Invoked command in '/workspace/ros2_ws/build/google_benchmark_vendor' returned '0': /usr/bin/cmake --build /workspace/ros2_ws/build/google_benchmark_vendor -- -j5 -l5
+[0.235s] Invoking command in '/workspace/ros2_ws/build/google_benchmark_vendor': /usr/bin/cmake --install /workspace/ros2_ws/build/google_benchmark_vendor
+[0.237s] -- Install configuration: "Release"
+[0.237s] -- Up-to-date: /opt/ros/humble
+[0.237s] -- Up-to-date: /opt/ros/humble/include
+[0.237s] -- Up-to-date: /opt/ros/humble/include/benchmark
+[0.237s] -- Up-to-date: /opt/ros/humble/include/benchmark/benchmark.h
+[0.237s] -- Up-to-date: /opt/ros/humble/lib
+[0.238s] -- Up-to-date: /opt/ros/humble/lib/libbenchmark_main.so.1
+[0.238s] -- Up-to-date: /opt/ros/humble/lib/pkgconfig
+[0.238s] -- Up-to-date: /opt/ros/humble/lib/pkgconfig/benchmark.pc
+[0.238s] -- Up-to-date: /opt/ros/humble/lib/cmake
+[0.238s] -- Up-to-date: /opt/ros/humble/lib/cmake/benchmark
+[0.238s] -- Up-to-date: /opt/ros/humble/lib/cmake/benchmark/benchmarkConfig.cmake
+[0.238s] -- Up-to-date: /opt/ros/humble/lib/cmake/benchmark/benchmarkTargets.cmake
+[0.238s] -- Up-to-date: /opt/ros/humble/lib/cmake/benchmark/benchmarkTargets-release.cmake
+[0.238s] -- Up-to-date: /opt/ros/humble/lib/cmake/benchmark/benchmarkConfigVersion.cmake
+[0.238s] -- Up-to-date: /opt/ros/humble/lib/libbenchmark_main.so.1.5.3
+[0.239s] -- Up-to-date: /opt/ros/humble/lib/libbenchmark.so.1
+[0.239s] -- Up-to-date: /opt/ros/humble/lib/libbenchmark.so.1.5.3
+[0.239s] -- Up-to-date: /opt/ros/humble/lib/libbenchmark.so
+[0.239s] -- Up-to-date: /opt/ros/humble/lib/libbenchmark_main.so
+[0.239s] -- Up-to-date: /opt/ros/humble/share/google_benchmark_vendor/package.xml

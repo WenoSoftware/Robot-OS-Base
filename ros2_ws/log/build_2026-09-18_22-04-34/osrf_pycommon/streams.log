@@ -1,0 +1,21 @@
+[0.290s] Invoking command in '/workspace/ros2_ws/src/osrf/osrf_pycommon': PYTHONPATH=/workspace/ros2_ws/build/osrf_pycommon/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/opt/ros/humble/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/osrf_pycommon build --build-base /workspace/ros2_ws/build/osrf_pycommon/build install --record /workspace/ros2_ws/build/osrf_pycommon/install.log --single-version-externally-managed install_data
+[0.400s] running egg_info
+[0.401s] writing ../../../build/osrf_pycommon/osrf_pycommon.egg-info/PKG-INFO
+[0.402s] writing dependency_links to ../../../build/osrf_pycommon/osrf_pycommon.egg-info/dependency_links.txt
+[0.403s] writing requirements to ../../../build/osrf_pycommon/osrf_pycommon.egg-info/requires.txt
+[0.404s] writing top-level names to ../../../build/osrf_pycommon/osrf_pycommon.egg-info/top_level.txt
+[0.415s] reading manifest file '../../../build/osrf_pycommon/osrf_pycommon.egg-info/SOURCES.txt'
+[0.415s] reading manifest template 'MANIFEST.in'
+[0.419s] adding license file 'LICENSE'
+[0.420s] writing manifest file '../../../build/osrf_pycommon/osrf_pycommon.egg-info/SOURCES.txt'
+[0.422s] running build
+[0.425s] running build_py
+[0.429s] running install
+[0.429s] running install_lib
+[0.432s] running install_data
+[0.433s] running install_egg_info
+[0.434s] removing '/opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon-2.1.7-py3.10.egg-info' (and everything under it)
+[0.435s] Copying ../../../build/osrf_pycommon/osrf_pycommon.egg-info to /opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon-2.1.7-py3.10.egg-info
+[0.437s] running install_scripts
+[0.456s] writing list of installed files to '/workspace/ros2_ws/build/osrf_pycommon/install.log'
+[0.475s] Invoked command in '/workspace/ros2_ws/src/osrf/osrf_pycommon' returned '0': PYTHONPATH=/workspace/ros2_ws/build/osrf_pycommon/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/opt/ros/humble/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/osrf_pycommon build --build-base /workspace/ros2_ws/build/osrf_pycommon/build install --record /workspace/ros2_ws/build/osrf_pycommon/install.log --single-version-externally-managed install_data

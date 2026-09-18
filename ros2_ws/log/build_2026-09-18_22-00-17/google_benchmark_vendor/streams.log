@@ -1,0 +1,121 @@
+[0.203s] Invoking command in '/workspace/ros2_ws/build/google_benchmark_vendor': /usr/bin/cmake /workspace/ros2_ws/src/ament/google_benchmark_vendor -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/opt/ros/humble
+[0.274s] -- The CXX compiler identification is GNU 11.4.0
+[0.319s] -- Detecting CXX compiler ABI info
+[0.453s] -- Detecting CXX compiler ABI info - done
+[0.467s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.468s] -- Detecting CXX compile features
+[0.470s] -- Detecting CXX compile features - done
+[0.543s] -- Configuring done
+[0.605s] -- Generating done
+[0.605s] -- Build files have been written to: /workspace/ros2_ws/build/google_benchmark_vendor
+[0.609s] Invoked command in '/workspace/ros2_ws/build/google_benchmark_vendor' returned '0': /usr/bin/cmake /workspace/ros2_ws/src/ament/google_benchmark_vendor -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/opt/ros/humble
+[0.610s] Invoking command in '/workspace/ros2_ws/build/google_benchmark_vendor': /usr/bin/cmake --build /workspace/ros2_ws/build/google_benchmark_vendor -- -j5 -l5
+[0.617s] [ 12%] [34m[1mCreating directories for 'benchmark-1.5.3'[0m
+[0.648s] [ 25%] [34m[1mPerforming download step (git clone) for 'benchmark-1.5.3'[0m
+[0.660s] Cloning into 'benchmark-1.5.3'...
+[2.758s] HEAD is now at c05843a [sysinfo] Fix CPU Frequency reading on AMD Ryzen CPU's (#1117)
+[2.801s] [ 37%] [34m[1mNo update step for 'benchmark-1.5.3'[0m
+[2.811s] [ 50%] [34m[1mPerforming patch step for 'benchmark-1.5.3'[0m
+[2.830s] [ 62%] [34m[1mPerforming configure step for 'benchmark-1.5.3'[0m
+[2.868s] -- The CXX compiler identification is GNU 11.4.0
+[2.873s] -- Detecting CXX compiler ABI info
+[2.929s] -- Detecting CXX compiler ABI info - done
+[2.935s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.935s] -- Detecting CXX compile features
+[2.935s] -- Detecting CXX compile features - done
+[2.938s] -- Found Git: /usr/bin/git (found version "2.34.1") 
+[2.980s] -- git Version: v1.5.3-dirty
+[2.980s] -- Version: 1.5.3
+[2.982s] -- Performing Test HAVE_CXX_FLAG_STD_CXX11
+[3.040s] -- Performing Test HAVE_CXX_FLAG_STD_CXX11 - Success
+[3.041s] -- Performing Test HAVE_CXX_FLAG_WALL
+[3.097s] -- Performing Test HAVE_CXX_FLAG_WALL - Success
+[3.099s] -- Performing Test HAVE_CXX_FLAG_WEXTRA
+[3.154s] -- Performing Test HAVE_CXX_FLAG_WEXTRA - Success
+[3.155s] -- Performing Test HAVE_CXX_FLAG_WSHADOW
+[3.209s] -- Performing Test HAVE_CXX_FLAG_WSHADOW - Success
+[3.210s] -- Performing Test HAVE_CXX_FLAG_WERROR
+[3.267s] -- Performing Test HAVE_CXX_FLAG_WERROR - Success
+[3.269s] -- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32
+[3.302s] -- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 - Failed
+[3.304s] -- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING
+[3.365s] -- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING - Success
+[3.367s] -- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS
+[3.425s] -- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS - Success
+[3.426s] -- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED
+[3.497s] -- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED - Success
+[3.499s] -- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING
+[3.555s] -- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING - Success
+[3.556s] -- Performing Test HAVE_CXX_FLAG_WD654
+[3.582s] -- Performing Test HAVE_CXX_FLAG_WD654 - Failed
+[3.582s] -- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY
+[3.613s] -- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY - Failed
+[3.614s] -- Performing Test HAVE_CXX_FLAG_COVERAGE
+[3.673s] -- Performing Test HAVE_CXX_FLAG_COVERAGE - Success
+[3.674s] -- Performing Test HAVE_STD_REGEX
+[3.674s] -- Performing Test HAVE_STD_REGEX
+[4.696s] -- Performing Test HAVE_STD_REGEX -- success
+[4.696s] -- Performing Test HAVE_GNU_POSIX_REGEX
+[4.697s] -- Performing Test HAVE_GNU_POSIX_REGEX
+[4.722s] -- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+[4.723s] -- Performing Test HAVE_POSIX_REGEX
+[4.723s] -- Performing Test HAVE_POSIX_REGEX
+[4.837s] -- Performing Test HAVE_POSIX_REGEX -- success
+[4.837s] -- Performing Test HAVE_STEADY_CLOCK
+[4.837s] -- Performing Test HAVE_STEADY_CLOCK
+[4.921s] -- Performing Test HAVE_STEADY_CLOCK -- success
+[4.924s] -- Looking for C++ include pthread.h
+[4.986s] -- Looking for C++ include pthread.h - found
+[4.987s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.046s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.047s] -- Found Threads: TRUE  
+[5.058s] -- Configuring done
+[5.075s] -- Generating done
+[5.081s] -- Build files have been written to: /workspace/ros2_ws/build/google_benchmark_vendor/benchmark-1.5.3-prefix/src/benchmark-1.5.3-build
+[5.089s] [ 75%] [34m[1mPerforming build step for 'benchmark-1.5.3'[0m
+[5.111s] [ 14%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/benchmark.cc.o[0m
+[5.111s] [ 14%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o[0m
+[5.112s] [ 14%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/benchmark_name.cc.o[0m
+[5.112s] [ 19%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/benchmark_register.cc.o[0m
+[5.115s] [ 23%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/benchmark_runner.cc.o[0m
+[5.367s] [ 28%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/colorprint.cc.o[0m
+[5.392s] [ 33%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/commandlineflags.cc.o[0m
+[5.865s] [ 38%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/complexity.cc.o[0m
+[5.903s] [ 42%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/console_reporter.cc.o[0m
+[6.183s] [ 47%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/counter.cc.o[0m
+[6.318s] [ 52%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/csv_reporter.cc.o[0m
+[6.461s] [ 57%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/json_reporter.cc.o[0m
+[6.519s] [ 61%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/reporter.cc.o[0m
+[6.733s] [ 66%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/sleep.cc.o[0m
+[6.848s] [ 71%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/statistics.cc.o[0m
+[6.944s] [ 76%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/string_util.cc.o[0m
+[6.953s] [ 80%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/sysinfo.cc.o[0m
+[6.981s] [ 85%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/timers.cc.o[0m
+[7.996s] [ 90%] [32m[1mLinking CXX shared library libbenchmark.so[0m
+[8.126s] [ 90%] Built target benchmark
+[8.136s] [ 95%] [32mBuilding CXX object src/CMakeFiles/benchmark_main.dir/benchmark_main.cc.o[0m
+[8.265s] [100%] [32m[1mLinking CXX shared library libbenchmark_main.so[0m
+[8.296s] [100%] Built target benchmark_main
+[8.309s] [ 87%] [34m[1mPerforming install step for 'benchmark-1.5.3'[0m
+[8.329s] [35m[1mConsolidate compiler generated dependencies of target benchmark[0m
+[8.463s] [ 90%] Built target benchmark
+[8.468s] [35m[1mConsolidate compiler generated dependencies of target benchmark_main[0m
+[8.495s] [100%] Built target benchmark_main
+[8.505s] [36mInstall the project...[0m
+[8.509s] -- Install configuration: "Release"
+[8.510s] -- Installing: /workspace/ros2_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark.so.1.5.3
+[8.515s] -- Installing: /workspace/ros2_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark.so.1
+[8.516s] -- Installing: /workspace/ros2_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark.so
+[8.516s] -- Installing: /workspace/ros2_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark_main.so.1.5.3
+[8.517s] -- Installing: /workspace/ros2_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark_main.so.1
+[8.518s] -- Set runtime path of "/workspace/ros2_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark_main.so.1.5.3" to ""
+[8.518s] -- Installing: /workspace/ros2_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark_main.so
+[8.518s] -- Installing: /workspace/ros2_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/include/benchmark
+[8.519s] -- Installing: /workspace/ros2_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/include/benchmark/benchmark.h
+[8.521s] -- Installing: /workspace/ros2_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/cmake/benchmark/benchmarkConfig.cmake
+[8.522s] -- Installing: /workspace/ros2_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/cmake/benchmark/benchmarkConfigVersion.cmake
+[8.523s] -- Installing: /workspace/ros2_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/pkgconfig/benchmark.pc
+[8.524s] -- Installing: /workspace/ros2_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/cmake/benchmark/benchmarkTargets.cmake
+[8.525s] -- Installing: /workspace/ros2_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/cmake/benchmark/benchmarkTargets-release.cmake
+[8.534s] [100%] [34m[1mCompleted 'benchmark-1.5.3'[0m
+[8.548s] [100%] Built target benchmark-1.5.3

@@ -1,0 +1,2 @@
+Invoking command in '/workspace/ros2_ws/build/osrf_testing_tools_cpp': /usr/bin/cmake --build /workspace/ros2_ws/build/osrf_testing_tools_cpp -- -j5 -l5
+Invoked command in '/workspace/ros2_ws/build/osrf_testing_tools_cpp' returned '2': /usr/bin/cmake --build /workspace/ros2_ws/build/osrf_testing_tools_cpp -- -j5 -l5

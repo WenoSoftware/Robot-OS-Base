@@ -1,0 +1,15 @@
+[0.065s] Invoking command in '/workspace/ros2_ws/build/osrf_testing_tools_cpp': /usr/bin/cmake /workspace/ros2_ws/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp -DCMAKE_SYSTEM_NAME=Linux -DCMAKE_SYSTEM_PROCESSOR=aarch64 -DCMAKE_SYSROOT=/workspace/buildroot/output/staging -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install
+[1.068s] -- The C compiler identification is GNU 15.3.0
+[1.119s] [31mCMake Error at /usr/share/cmake-3.22/Modules/CMakeDetermineCXXCompiler.cmake:48 (message):
+[1.119s]   Could not find compiler set in environment variable CXX:
+[1.120s] 
+[1.120s]   aarch64-buildroot-linux-gnu-g++.
+[1.120s] 
+[1.120s] Call Stack (most recent call first):
+[1.120s]   CMakeLists.txt:3 (project)
+[1.121s] 
+[1.121s] [0m
+[1.121s] [0mCMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage[0m
+[1.124s] -- Configuring incomplete, errors occurred!
+[1.124s] See also "/workspace/ros2_ws/build/osrf_testing_tools_cpp/CMakeFiles/CMakeOutput.log".
+[1.124s] See also "/workspace/ros2_ws/build/osrf_testing_tools_cpp/CMakeFiles/CMakeError.log".

@@ -1,0 +1,1 @@
+Invoking command in '/workspace/ros2_ws/build/fastcdr': /usr/bin/cmake /workspace/ros2_ws/src/eProsima/Fast-CDR -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/opt/ros/humble

@@ -1,0 +1,26 @@
+[0.117s] Invoking command in '/workspace/ros2_ws/build/google_benchmark_vendor': /usr/bin/cmake --build /workspace/ros2_ws/build/google_benchmark_vendor -- -j5 -l5
+[0.162s] [100%] Built target benchmark-1.5.3
+[0.208s] Invoked command in '/workspace/ros2_ws/build/google_benchmark_vendor' returned '0': /usr/bin/cmake --build /workspace/ros2_ws/build/google_benchmark_vendor -- -j5 -l5
+[0.252s] Invoking command in '/workspace/ros2_ws/build/google_benchmark_vendor': /usr/bin/cmake --install /workspace/ros2_ws/build/google_benchmark_vendor
+[0.263s] -- Install configuration: "Release"
+[0.264s] -- Up-to-date: /opt/ros/humble
+[0.266s] -- Installing: /opt/ros/humble/include
+[0.266s] -- Installing: /opt/ros/humble/include/benchmark
+[0.267s] -- Installing: /opt/ros/humble/include/benchmark/benchmark.h
+[0.267s] -- Up-to-date: /opt/ros/humble/lib
+[0.268s] -- Installing: /opt/ros/humble/lib/libbenchmark_main.so.1
+[0.269s] -- Installing: /opt/ros/humble/lib/pkgconfig
+[0.269s] -- Installing: /opt/ros/humble/lib/pkgconfig/benchmark.pc
+[0.270s] -- Installing: /opt/ros/humble/lib/cmake
+[0.270s] -- Installing: /opt/ros/humble/lib/cmake/benchmark
+[0.270s] -- Installing: /opt/ros/humble/lib/cmake/benchmark/benchmarkConfig.cmake
+[0.271s] -- Installing: /opt/ros/humble/lib/cmake/benchmark/benchmarkTargets.cmake
+[0.271s] -- Installing: /opt/ros/humble/lib/cmake/benchmark/benchmarkTargets-release.cmake
+[0.272s] -- Installing: /opt/ros/humble/lib/cmake/benchmark/benchmarkConfigVersion.cmake
+[0.273s] -- Installing: /opt/ros/humble/lib/libbenchmark_main.so.1.5.3
+[0.273s] -- Installing: /opt/ros/humble/lib/libbenchmark.so.1
+[0.274s] -- Installing: /opt/ros/humble/lib/libbenchmark.so.1.5.3
+[0.279s] -- Installing: /opt/ros/humble/lib/libbenchmark.so
+[0.279s] -- Installing: /opt/ros/humble/lib/libbenchmark_main.so
+[0.280s] -- Installing: /opt/ros/humble/share/google_benchmark_vendor/package.xml
+[0.293s] Invoked command in '/workspace/ros2_ws/build/google_benchmark_vendor' returned '0': /usr/bin/cmake --install /workspace/ros2_ws/build/google_benchmark_vendor

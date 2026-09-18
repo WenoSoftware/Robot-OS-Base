@@ -1,0 +1,12 @@
+[0.225s] Invoking command in '/workspace/ros2_ws/build/gmock_vendor': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install PATH=/workspace/ros2_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/ros2_ws/install/lib/pkgconfig PYTHONPATH=/workspace/ros2_ws/install/lib/python3.10/site-packages /usr/bin/cmake /workspace/ros2_ws/src/ament/googletest/googlemock -DCMAKE_SYSTEM_NAME=Linux -DCMAKE_SYSTEM_PROCESSOR=aarch64 -DCMAKE_SYSROOT=/workspace/buildroot/output/staging -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install
+[0.518s] -- Configuring done
+[0.521s] -- Generating done
+[0.523s] -- Build files have been written to: /workspace/ros2_ws/build/gmock_vendor
+[0.524s] [33mCMake Warning:
+[0.524s]   Manually-specified variables were not used by the project:
+[0.524s] 
+[0.527s]     BUILD_TESTING
+[0.530s] 
+[0.530s] [0m
+[0.787s] Invoked command in '/workspace/ros2_ws/build/gmock_vendor' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install PATH=/workspace/ros2_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/ros2_ws/install/lib/pkgconfig PYTHONPATH=/workspace/ros2_ws/install/lib/python3.10/site-packages /usr/bin/cmake /workspace/ros2_ws/src/ament/googletest/googlemock -DCMAKE_SYSTEM_NAME=Linux -DCMAKE_SYSTEM_PROCESSOR=aarch64 -DCMAKE_SYSROOT=/workspace/buildroot/output/staging -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install
+[0.789s] Invoking command in '/workspace/ros2_ws/build/gmock_vendor': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install PATH=/workspace/ros2_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/ros2_ws/install/lib/pkgconfig PYTHONPATH=/workspace/ros2_ws/install/lib/python3.10/site-packages /usr/bin/cmake --build /workspace/ros2_ws/build/gmock_vendor -- -j5 -l5

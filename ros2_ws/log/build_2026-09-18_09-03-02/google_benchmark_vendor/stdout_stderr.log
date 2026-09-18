@@ -1,0 +1,12 @@
+[31mCMake Error at /usr/share/cmake-3.22/Modules/CMakeDetermineCXXCompiler.cmake:48 (message):
+  Could not find compiler set in environment variable CXX:
+
+  aarch64-buildroot-linux-gnu-g++.
+
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+[0m
+[0mCMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage[0m
+-- Configuring incomplete, errors occurred!
+See also "/workspace/ros2_ws/build/google_benchmark_vendor/CMakeFiles/CMakeOutput.log".

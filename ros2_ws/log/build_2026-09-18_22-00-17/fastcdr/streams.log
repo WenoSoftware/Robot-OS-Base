@@ -1,0 +1,31 @@
+[0.033s] Invoking command in '/workspace/ros2_ws/build/fastcdr': /usr/bin/cmake /workspace/ros2_ws/src/eProsima/Fast-CDR -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/opt/ros/humble
+[0.143s] -- The C compiler identification is GNU 11.4.0
+[0.164s] -- The CXX compiler identification is GNU 11.4.0
+[0.169s] -- Detecting C compiler ABI info
+[0.228s] -- Detecting C compiler ABI info - done
+[0.234s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.234s] -- Detecting C compile features
+[0.235s] -- Detecting C compile features - done
+[0.238s] -- Detecting CXX compiler ABI info
+[0.350s] -- Detecting CXX compiler ABI info - done
+[0.357s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.358s] -- Detecting CXX compile features
+[0.358s] -- Detecting CXX compile features - done
+[0.359s] -- Configuring Fast CDR
+[0.360s] -- Version: 1.0.24
+[0.361s] -- To change the version modify the file configure.ac
+[0.361s] -- Performing Test SUPPORTS_CXX14
+[0.417s] -- Performing Test SUPPORTS_CXX14 - Success
+[0.421s] -- Looking for sys/types.h
+[0.474s] -- Looking for sys/types.h - found
+[0.476s] -- Looking for stdint.h
+[0.528s] -- Looking for stdint.h - found
+[0.530s] -- Looking for stddef.h
+[0.580s] -- Looking for stddef.h - found
+[0.580s] -- Check size of long double
+[0.635s] -- Check size of long double - done
+[0.636s] -- Check size of __float128
+[0.666s] -- Check size of __float128 - failed
+[0.687s] -- Configuring done
+[0.700s] -- Generating done
+[0.708s] -- Build files have been written to: /workspace/ros2_ws/build/fastcdr

@@ -23,7 +23,6 @@ jobs:
 
       - name: Compile OS Image
         run: |
-          cd buildroot
           export FORCE_UNSAFE_CONFIGURE=1
           make -j$(nproc)
 
@@ -31,4 +30,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: weno-robot-images
-          path: buildroot/output/images/
+          path: output/images/

@@ -19,7 +19,6 @@ jobs:
 
       - name: Configure Buildroot
         run: |
-          cd buildroot
           make qemu_aarch64_virt_defconfig
 
       - name: Compile OS Image
